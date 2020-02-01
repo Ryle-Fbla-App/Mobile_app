@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Ryle FBLA</string>
+    <string name="title">Welcome to Chapter 12125</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="guest">Continue as Guest</string>
+    <string name="back">Hub</string>
+    <string name="officerTeam">President: Ariel Klaas\nVice President: Phoebe Clark\nTreasurer: Blake Gross\nSecretary: Phoebe Clark\nReporter: Claire Bennett\nHistorian: Molly Fuller</string>
+    <string name="aboutFBLA">
+        Mission Statement: FBLA inspires and prepares students to become community-minded business leaders in a global society through relevant career preparation and leadership experiences.\n
+        FBLAs program focuses on: Leadership Development, Academic Competitions, Educational Programs, Membership Benefits, Community Service, Awards &amp; Recognition.
+    </string>
+    <string name="twitter">Twitter: <a href="https://twitter.com/Ryle_FBLA">https://twitter.com/Ryle_FBLA</a></string>
+    <string name="facebook">Facebook: <a href="https://www.facebook.com/RFBLA/">https://www.facebook.com/RFBLA/</a></string>
+    <string name="homepage">Fbla Home: <a href="https://www.fbla-pbl.org">https://www.fbla-pbl.org</a></string>
+    <string name="contactUs">Contact Us:\nFacebook: @RFBLA\nEmail: rylefbla@gmail.com\nTwitter: @Ryle_FBLA</string>
+    <string name="compEvents">
+        3-D Animation\n
+        Accounting I\n
+        Accounting II\n
+        Advertising\n
+        Agribusiness\n
+        American Enterprise Project\n
+        Banking &amp; Financial Systems\n
+        Broadcast Journalism\n
+        Business Calculations\n
+        Business Communication(FBLA)\n
+        Business Ethics(FBLA)\n
+        Business Financial Plan\n
+        Business Law(FBLA)\n
+        Business Plan
+        Client Service(FBLA)\n
+        Coding &amp; Programming\n
+        Community Service Project(FBLA)\n
+        Computer Applications(FBLA)\n
+        Computer Game &amp; Simulation Programming\n
+        Computer Problem Solving\n
+        Cyber Security(FBLA)\n
+        Database Design &amp; Applications\n
+        Digital Video Production\n
+        E-business\n
+        Economics\n
+        Electric Career Portfolio\n
+        Emerging Business Issues(FBLA)\n
+        Entrepreneurship\n
+        Future Business Leader\n
+        Global Business\n
+        Graphic Design\n
+        Health Care Administration\n
+        Help Desk(FBLA)\n
+        Hospitality Management(FBLA)\n
+        Impromtu Speaking(FBLA)\n
+        Insurance &amp; Risk Management\n
+        Introduction to Business\n
+        Introduction to Business Communication\n
+        Introduction to Business Presentation\n
+        Introduction to Procedures\n
+        Introduction to FBLA\n
+        Introduction to Financial Math\n
+        Introduction to Information Technology\n
+        Introduction to Parliamentary Procedure\n
+        Introduction to Public Speaking\n
+        Job Interview(FBLA)\n
+        Journalism\n
+        LifeSmarts\n
+        Local Chapter Annual Business Report(FBLA)\n
+        Management Decision Making\n
+        Management Information Systems\n
+        Marketing\n
+        Mobile Application Development(FBLA)\n
+        Network Design(FBLA)\n
+        Networking Concepts(FBLA)\n
+        Organizational Leadership\n
+        Parliamentary Procedure\n
+        Partnership with Business Project\n
+        Personal Finance(FBLA)\n
+        Political Science\n
+        Public Service Announcement\n
+        Public Speaking(FBLA)\n
+        Publication Design\n
+        Sales Presentation(FBLA)\n
+        Securities &amp; Investments\n
+        Social Media Campaign\n
+        Sports &amp; Entertainment Management\n
+        Spreadsheet Applications\n
+        Virtual Business Finance Challenge\n
+        Virtual Business Management Challenge\n
+        Website Design(FBLA)\n
+        Word Processing
+    </string>
+    <string name="sorry_this_area_is_under_construction">Sorry, this area is under construction.</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/events_background"
+    tools:context=".eventsActivity">
+
+    <ImageButton
+        android:id="@+id/eventBack"
+        android:layout_width="70dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:background="#0000"
+        android:onClick="openHubScreen"
+        android:src="@drawable/test"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <ScrollView
+        android:layout_below="@+id/eventBack"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingTop="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+
+            <TextView
+                android:id="@+id/eventDescription"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0"
+                android:text="@string/compEvents"
+                android:textSize="20sp"
+                android:visibility="visible"
+                tools:visibility="visible" />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

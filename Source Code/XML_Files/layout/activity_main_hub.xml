@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hub_background"
+    tools:context=".mainHub">
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Home"
+        android:onClick="openHomeScreen"
+        android:background="#0000"
+        android:src="@drawable/homebutton"
+        android:visibility="visible"
+        tools:ignore="HardcodedText"
+        tools:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/home"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="Links"
+        android:background="#0000"
+        android:src="@drawable/linksbutton"
+        android:visibility="visible"
+        tools:visibility="visible"
+        tools:ignore="HardcodedText"/>
+
+    <ImageButton
+        android:id="@+id/events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home"
+        android:background="#0000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Events"
+        android:src="@drawable/eventsbutton"
+        android:visibility="visible"
+        tools:visibility="visible"
+        tools:ignore="HardcodedText"/>
+
+    <ImageButton
+        android:id="@+id/team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="#0000"
+        android:layout_marginEnd="35dp"
+        android:layout_toStartOf="@+id/home"
+        android:text="Officer Team"
+        android:onClick="openOfficerScreen"
+        android:src="@drawable/officerbutton"
+        android:visibility="visible"
+        tools:visibility="visible"
+        tools:ignore="HardcodedText"/>
+
+    <ImageButton
+        android:id="@+id/activities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="35dp"
+        android:layout_toEndOf="@+id/home"
+        android:background="#0000"
+        android:text="Activities"
+        android:src="@drawable/activitybutton"
+        android:visibility="visible"
+        tools:visibility="visible"
+        tools:ignore="HardcodedText"/>
+
+    <ImageButton
+        android:id="@+id/forum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+        android:layout_above="@+id/activities"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="100dp"
+        android:layout_toEndOf="@+id/link"
+        android:text="Forum"
+        android:src="@drawable/forumbutton"
+        android:visibility="visible"
+        tools:visibility="visible"
+        tools:ignore="HardcodedText"/>
+
+    <ImageButton
+        android:id="@+id/license"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activities"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="100dp"
+        android:background="#0000"
+        android:layout_toEndOf="@+id/events"
+        android:text="License"
+        android:src="@drawable/licensebutton"
+        android:visibility="visible"
+        tools:visibility="visible"
+        tools:ignore="HardcodedText"/>
+
+    <ImageButton
+        android:id="@+id/calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/team"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="35dp"
+        android:background="#0000"
+        android:layout_toStartOf="@+id/events"
+        android:text="Calendar"
+        android:src="@drawable/calanderbutton"
+        android:visibility="visible"
+        tools:visibility="visible"
+        tools:ignore="HardcodedText"/>
+
+    <ImageButton
+        android:id="@+id/attendance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/team"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="100dp"
+        android:layout_toStartOf="@+id/link"
+        android:background="#0000"
+        android:text="Attendance"
+        android:src="@drawable/attendbutton"
+        android:visibility="visible"
+        tools:visibility="visible"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="223dp"
+        android:layout_marginBottom="0dp"
+        android:padding="10dp"
+        android:text="@string/contactUs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>
